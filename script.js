@@ -3,6 +3,8 @@ const PS = new PerfectScrollbar("#cells", {
     wheelPropagation: true,
 });
 
+// bipul
+
 function findRowCol(ele) {
     let idArray = $(ele).attr("id").split("-");
     let rowId = parseInt(idArray[1]);
